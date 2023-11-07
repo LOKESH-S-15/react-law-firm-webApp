@@ -1,0 +1,65 @@
+.teamCon{
+    padding: 10%;
+    padding-top: 0;
+}
+.teamCon h1{
+color: var(--Pure-White, #FFF);
+font-family: Inter;
+font-size: 54px;
+font-style: normal;
+font-weight: 600;
+line-height: 143.023%; /* 77.232px */
+text-align: center;
+margin-bottom: 50px;
+
+}
+.teamCardCon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 2s;
+    border-radius: 14px;
+    
+}
+.teamCardNameCon h1{
+    color: var(--Pure-White, #FFF);
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 100% */
+margin: 0;
+}
+.teamCardNameCon p{
+    color: var(--Pure-White, #FFF);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    opacity: 0.3;
+}
+.teamCardCon:hover{
+    border-radius: 24px;
+background: #E3B748;
+
+transform:scale(1.1);
+
+
+}
+.teamCardCon:hover h1{
+
+    color: var(--Text-Black, #373737);
+}
+.teamCardCon:hover p{
+
+    color: #000000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+    opacity: .5;
+}

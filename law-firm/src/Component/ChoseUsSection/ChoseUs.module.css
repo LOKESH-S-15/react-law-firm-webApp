@@ -1,0 +1,133 @@
+.choseUsCon{
+    padding: 10%;
+}
+.introCon{
+    display: flex;
+    justify-content: space-between;
+}
+.introCon h1{
+    color: var(--Pure-White, #FFF);
+font-family: Inter;
+font-size: 46px;
+font-style: normal;
+font-weight: 500;
+line-height: 161.523%; /* 87.222px */
+width: 400px;
+}
+.lineBreak{
+    
+    width: 2px;
+    background-color:  #6A6A6A;
+}
+.ChoseUsCriminalSec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    
+}
+.ChoseUsCriminalSec h2{
+    color: var(--Pure-White, #FFF);
+
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 162.523%; /* 52.007px */
+}
+.ChoseUsCriminalSec p{
+    color: var(--Pure-White, #FFF);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 162.523%; /* 29.254px */
+    opacity: 0.3;
+   
+}
+.choseUsCardCon{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    min-width: 30%;
+    
+   
+    
+    
+    border-radius: 14px;
+border: 1.4px solid rgba(255, 255, 255, 0.10);
+
+background: #1D1D1D;
+cursor: pointer;
+transition: 1s;
+
+gap: 20px;
+
+
+}
+.choseUsCardCon h3{
+    color: var(--Pure-White, #FFF);
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 100% */
+}
+.choseUsCardCon p{
+    color: var(--Pure-White, #FFF);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 162.523%; /* 22.753px */
+    opacity: 0.3;
+}
+.choseUsCardCon button{
+    width: 121px;
+    height: 43px;
+    flex-shrink: 0;
+    flex-shrink: 0;
+    border-radius: 23.5px;
+background: #E3B748;
+    opacity: 1 !important;  
+    border:none;
+    color: #000;
+    
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 162.523%; /* 26.004px */
+    cursor: pointer;
+
+}
+.choseUsCardCon:hover{
+    border-radius: 14px;
+border: 1.4px solid rgba(255, 255, 255, 0.10);
+background: #2E2E2E;
+transform: scale(1.2);
+
+
+}
+.choseUsSecCon{
+    margin-top: 10%;
+    display: flex;
+flex-direction: column;
+gap: 60px;
+
+
+}
+.choseUsSecCon h1{
+    color: var(--Pure-White, #FFF);
+font-family: Inter;
+font-size: 54px;
+font-style: normal;
+font-weight: 600;
+line-height: 143.023%; /* 77.232px */
+text-align: center;
+
+}
+.ChoseUsCardSec{
+    display: flex;
+    gap: 20px;
+}

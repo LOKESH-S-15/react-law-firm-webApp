@@ -1,0 +1,121 @@
+.clientSecCon {
+  padding: 10%;
+  padding-top: 0;
+  position: relative;
+}
+.clientHeadSecCon {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.clientHeadTitleSecCon {
+  width: 60%;
+}
+.clientHeadTitleSecCon h1 {
+  color: var(--Pure-White, #fff);
+  font-family: Inter;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+}
+.clientHeadBtn {
+  width: 90.612px;
+  height: 90.612px;
+  border-radius: 50px !important;
+  background-color: #e6e6e6 !important;
+  margin: 8px !important;
+  color: white !important;
+}
+.clientHeadBtn:hover {
+  box-shadow: none;
+  background-color: #e3b748 !important;
+  transition: 400ms;
+}
+.clientHeadBtn:active {
+  color: #e3b748 !important;
+  box-shadow: none;
+  border-color: #e3b748;
+}
+.ClientCardCon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  width:100%;
+
+
+  border-radius: 14px;
+  border: 1.4px solid rgba(255, 255, 255, 0.1);
+
+  background: #1d1d1d;
+  cursor: pointer;
+  transition: 1s;
+  height: 350px;
+  cursor: pointer;
+  text-overflow: ellipsis;
+  
+}
+.ClientCardCon:hover{
+    border-radius: 14px;
+    border: 1.4px solid rgba(255, 255, 255, 0.10);
+    background: #2E2E2E;
+    transform: scale(1.03);
+
+}
+.ClientCardCon p{
+    color: var(--Pure-White, #FFF);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 162.523%; /* 22.753px */
+    opacity: 0.3;
+}
+
+.ClientCardCon img{
+    width: 105px;
+height: 102px;
+
+}
+.ClientCardNameCon{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.carsoul{
+    margin-top: 50px;
+   
+}
+.swiper-slide {
+    width:auto !important;
+  }
+ .rigth{
+    position: absolute;
+   right: 40%;
+   
+   z-index: 1;
+ }
+ .left{
+    position: absolute;
+     left: 40%;
+     bottom: 0;
+     z-index: 1;
+ 
+ }
+
+ .leftNavigation{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 10;
+
+}
+.rightNavigation{
+    position: absolute;
+    top: 40%;
+    right: 0px;
+    transform: translateY(-50%);
+    z-index: 10;
+}

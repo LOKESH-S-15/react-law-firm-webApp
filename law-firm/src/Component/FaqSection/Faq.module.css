@@ -1,0 +1,60 @@
+.faqCon{
+    padding: 10%;
+    padding-top: 0;
+}
+.faqCon h1{
+    color: var(--Pure-White, #FFF);
+font-family: Inter;
+font-size: 54px;
+font-style: normal;
+font-weight: 600;
+line-height: 138.023%; /* 74.532px */
+ }
+ .faqBodyCon{
+    display: flex;
+    justify-content: space-between;
+
+
+ }
+ .faqBodyText{
+    color: var(--Pure-White, #FFF);
+font-family: Inter;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: 162.523%; /* 29.254px */
+opacity: 0.3;
+max-width: 500px;
+    
+ }
+ .accordion{
+   
+    background-color: #1d1d1d !important;
+    border-bottom:1px solid #ffffff3b !important;
+
+    
+ }
+
+ .accordionSum p{
+    color: #FFF !important;
+    font-family: Inter;
+    font-size: 20px !important;
+    font-style: normal;
+    font-weight: 500;
+   
+    
+
+ }
+ 
+.accordionDet p{
+    color: var(--Pure-White, #FFF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+  
+    opacity: 0.3;
+
+    
+}
+

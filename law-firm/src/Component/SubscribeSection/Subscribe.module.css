@@ -1,0 +1,68 @@
+.subscribeCon{
+    margin: 10% !important;
+    margin-top: 0 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background: rgba(71, 71, 71, 0.50);
+    height: 356px;
+}
+.subscribeCon h1{
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 55px;
+font-style: normal;
+font-weight: 500;
+line-height: 137%; /* 75.35px */
+}
+.subscribeBodyCon{
+    display: flex;
+    gap: 10px;
+}
+.subscribeBodyname{
+    border: 0;
+    outline: 0;
+    background-color:#E4E4E4 ;
+    
+    
+}
+
+.subscribeBodyNameCon{
+    height: 53px;
+    border-radius: 8px 0px 0px 8px;
+    background: #E4E4E4;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.subscribeBodyEmailCon{
+    height: 53px;
+    display: flex;
+    align-items: center;
+    background: #E4E4E4;
+    padding: 10px;
+    
+}
+.subscribeBodyEmail{
+    border: 0;
+    outline: 0;
+    background-color:#E4E4E4 ;
+}
+.subscribeBodyBtn{
+    border-radius: 0px 8px 8px 0px;
+    background: #E3B748;
+    color: #000;
+
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 137%; /* 19.18px */
+width: 116px;
+border: 0;
+cursor: pointer;
+}
